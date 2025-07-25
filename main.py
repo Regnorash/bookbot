@@ -1,6 +1,4 @@
-#count the amount of words in the provided text
-def count_words(text):
-    return len(text.split())
+from stats import count_words
 
 #open and read the file in the provided path
 def get_book_text(filepath):
